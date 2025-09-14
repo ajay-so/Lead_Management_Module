@@ -27,18 +27,27 @@ This project provides REST APIs to manage leads with features like **pagination*
 ## Setup & Installation
 
 1. **Clone the Repository**
-- git clone <your-repo-url>
-- cd LeadManagement
+
+```bash
+git clone <your-repo-url>
+cd LeadManagement
+```
 
 2. **Install Dependencies**
-- npm install
+```bash
+npm install
+```
 
 3. **Setup Environment Variables**
 - Create a .env file in the root folder and add:
- - PORT=5000
- - MONGO_URI=your_mongodb_connection_string
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+```
 
 4. **Run the project**
-- npm run dev or nodemon index.js
+```bash
+npm run dev or nodemon index.js
+```
 - This will start the server with nodemon at http://localhost:5000.
 
